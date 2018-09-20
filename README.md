@@ -1,8 +1,8 @@
-# motivational_app
+# Quotes App
 
-A new Flutter application.
+Application Which Will Give You Motivational and Inspirational Quotes Daily With Material UI
 
-## Getting Started
+## Download Quotes App
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Download Quotes App
+[Quotes App](https://play.google.com/store/apps/details?id=com.dylan.motivationalapp).
