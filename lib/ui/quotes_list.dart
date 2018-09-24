@@ -16,6 +16,7 @@ class QuotesList extends StatelessWidget {
     return new PageView.builder(
       controller: PageController(
         initialPage: 0,
+        keepPage: true
       ),
       itemCount: quotes.length,
       itemBuilder: (BuildContext context, int position) {
@@ -40,7 +41,7 @@ class QuotesList extends StatelessWidget {
                             style: new TextStyle(
                                 color: Colors.white,
                                 fontSize: 22.0,
-                                fontFamily: 'PermanentMarker',                                
+                                fontFamily: 'Acme'                               
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -132,7 +133,7 @@ class QuotesList extends StatelessWidget {
 
   static Color getRandomColor() {
     List<String> hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8' '9', 'A', 'B', 'C', 'D', 'E', 'F'];
-     String color = "0xaf";
+     String color = "0xEE";
 
      for (int i = 1; i <= 6; i++) {
        color += hex[Random().nextInt(hex.length)];
